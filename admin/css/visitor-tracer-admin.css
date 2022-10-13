@@ -1,0 +1,27 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ table#vt_records_table {
+    border-collapse: collapse;
+    margin: 0;
+    margin-top: 10px;
+    margin-right: 20px;
+    /* border: 1px solid #2196f3; */
+}
+table#vt_records_table thead {
+    background: #1d2327;
+    color: #fff;
+}
+table#vt_records_table thead tr th, table#vt_records_table tbody tr td {
+    padding: 5px;
+    text-align: left;
+    min-width: 150px;
+    max-width: calc(100% / 5);
+}
+table#vt_records_table thead tr th:first-child, table#vt_records_table tbody tr td:first-child {
+    min-width: 30px !important;
+}
+table#vt_records_table tbody tr:nth-child(even) {
+    background: #e5e5e5;
+}
